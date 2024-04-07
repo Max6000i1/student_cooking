@@ -10,3 +10,9 @@ riz_saute_image:
   record: riz_saute
   blob: riz_saute_image_blob
 
+shakshuka_image:
+    name: image
+    record_type: Recette
+    record: shakshuka
+    blob: shakshuka_image_blob
+
