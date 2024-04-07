@@ -1,0 +1,62 @@
+<div id="<%= dom_id recette %>">
+  <p>
+  <h3><%= link_to recette.nom, recette, class: "lien_recette_nom" %></h3>
+  </p>
+
+  <p>
+    <%= recette.temps %> minutes
+  </p>
+  <% if recette.image.attached? %>
+    <div class="image-container">
+      <%= image_tag recette.image, class: "recette-image" if recette.image.attached? %>
+      <%= link_to "+", recette, class: "plus-icon" if @recette.nil? %>
+    </div>
+  <% end %>
+  <% if @recette %>
+    <ul>
+      <% recette.ingredients.each do |ingredient| %>
+        <li><%= ingredient.nom %></li>
+      <% end %>
+    </ul>
+    <ol>
+      <% recette.etapes.each do |etape| %>
+        <li><%= etape.description %></li>
+      <% end %>
+    </ol>
+  <% end %>
+  <%= turbo_frame_tag 'new_ingredient' do %>
+    <%= form_with(model: Ingredient.new, data: { turbo_frame: 'new_ingredient' }, remote: true) do |form| %>
+      <div>
+        <%= form.label :nom, style: "display: block" %>
+        <%= form.text_field :nom %>
+      </div>
+
+      <div>
+        <%= form.label :quantite, style: "display: block" %>
+        <%= form.text_field :quantite %>
+      </div>
+
+      <div>
+        <%= form.label :unite, style: "display: block" %>
+        <%= form.text_field :unite %>
+      </div>
+
+      <div>
+        <%= form.label :recette_id %>
+        <%= form.hidden_field :recette_id, value: @recette.id %>
+      </div>
+
+      <div>
+        <%= form.submit %>
+      </div>
+    <% end %>
+  <% end unless @recette.nil? %>
+  <% if @recette %>
+    <p>
+      <%= link_to 'Edit', edit_recette_path(recette) %> |
+      <%= link_to 'Back', recettes_path %>
+    </p>
+  <% end %>
+
+
+</div>

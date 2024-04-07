@@ -1,0 +1,77 @@
+
+
+.recette-header {
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    width: 100%;
+}
+
+.overlay_header {
+    padding: 20px;
+}
+
+.cta {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.recette-content {
+    display: flex;
+    width: 100%;
+    color: #344150;
+    font-size: larger;
+}
+
+.ingredients {
+    flex: 1 1 25%; /* Les ingrédients occupent 25% de l'espace */
+    padding: 10px; /* Ajoutez un padding pour un peu d'espace autour du texte */
+}
+
+.etapes {
+    flex: 3 1 75%; /* Les étapes occupent le reste de l'espace, soit 75% */
+    padding: 10px;
+}
+
+.etapes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.etape {
+    flex: 1 1 48%; /* Ajustez en fonction de l'espace disponible dans .etapes */
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.numero {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

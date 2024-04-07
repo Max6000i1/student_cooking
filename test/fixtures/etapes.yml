@@ -1,0 +1,305 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+riz_sauté_1:
+  recette: riz_saute
+  description: >
+    Laver le riz à l'eau froide et le faire cuire dans une casserole ou un cuiseur à riz.
+
+
+riz_saute_2:
+  recette: riz_saute
+  description: >
+    Une fois cuit, éteindre le feu, retirer le couvercle, et laisser reposer le riz pendant 1 minute pour permettre à l'eau de s'évaporer.
+
+riz_sauté_3:
+  recette: riz_saute
+  description: >
+    Pendant que le riz repose, couper les légumes en dés et le blanc de poulet en petits morceaux. Préparer l'œuf, les petits pois, et la sauce soja.
+
+riz_sauté_4:
+  recette: riz_saute
+  description: >
+    Faire frire le blanc de poulet à feu vif pendant 30 secondes de chaque côté. Ne pas trop cuire le poulet. Retirez-le de la poêle.
+
+riz_saute_5:
+  recette: riz_saute
+  description: >
+    Ajouter de l'huile dans la poêle et ajouter les légumes. Faire frire à feu moyen pendant 3-4 minutes jusqu'à ce qu'ils soient tendres.
+
+riz_sauté_6:
+  recette: riz_saute
+  description: >
+    Ajouter l’ail et continuer à faire frire pendant 20 secondes.
+
+riz_saute_7:
+  recette: riz_saute
+  description: >
+    Ajouter le riz dans la poêle, qui devrait être prêt à ce moment-là. Remuer le tout et faire frire pendant 1 minute.
+
+riz_sauté_8:
+  recette: riz_saute
+  description: >
+    Faites de la place dans la poêle, ajoutez de l'huile et cassez les œufs. Brouiller les œufs et mélanger le tout.
+
+riz_saute_9:
+  recette: riz_saute
+  description: >
+    Ajouter les petits pois surgelés et continuer à faire frire pendant 30 secondes jusqu'à ce qu'ils soient décongelés.
+
+riz_sauté_10:
+  recette: riz_saute
+  description: >
+    Ajoutez une pincée de poivre, puis ajoutez le poulet et la sauce soja. Remuez une dernière fois. C'est fait!
+
+gyros_1:
+  recette: gyros
+  description: >
+    Chauffer une poêle à feu moyen. Vaporiser de l'huile d'olive sur les deux côtés du poulet.
+
+gyros_2:
+  recette: gyros
+  description: >
+    Assaisonner de sel, poudre d'ail et origan sur les deux côtés.
+
+gyros_3:
+  recette: gyros
+  description: >
+    Cuire dans la poêle environ 7-10 minutes de chaque côté jusqu'à ce qu'il soit bien cuit. Mettre de côté et laisser reposer.
+
+gyros_4:
+  recette: gyros
+  description: >
+    Dans un bol, mélanger la farine, le sel et la levure chimique. Ajouter la poudre d'ail et le yaourt grec. Mélanger jusqu'à obtenir une pâte. Former une boule de pâte à la main. Laisser reposer la pâte.
+
+gyros_5:
+  recette: gyros
+  description: >
+    Trancher ⅓ d'un oignon rouge en morceaux de taille égale. Couper 1-2 petites tomates en tranches.
+
+gyros_6:
+  recette: gyros
+  description: >
+    Dans un bol, mélanger le yaourt grec (50g), le jus d'un demi-citron, une pincée de sel, de l'aneth haché et une gousse d'ail émincée. Bien mélanger jusqu'à obtenir une consistance crémeuse.
+
+gyros_7:
+  recette: gyros
+  description: >
+    Chauffer une poêle à feu moyen avec un peu d'huile d'olive. Étaler la boule de pâte en une forme plate de pain pita. Cuire pendant environ 2-3 minutes de chaque côté, jusqu'à ce qu'il soit doré.
+
+gyros_8:
+  recette: gyros
+  description: >
+    Étaler le tzatziki au centre du pain pita. Ajouter les tranches d'oignon rouge et de tomate sur le tzatziki. Couper le poulet cuit en petits morceaux et les disposer sur les légumes. Fermer le pain pour envelopper les garnitures.
+
+
+
+bolognese_1:
+  recette: spaghetti_bolognaise
+  description: >
+    Commencer par un petit oignon rouge, enlever la peau et le couper en morceaux. Utiliser également un oignon blanc si désiré. Tout hacher et mettre de côté.
+
+bolognese_2:
+  recette: spaghetti_bolognaise
+  description: >
+    Prendre 2 gousses d'ail, les écraser avec un couteau pour enlever facilement la peau. Enlever les racines et hacher finement, comme les oignons.
+
+bolognese_3:
+  recette: spaghetti_bolognaise
+  description: >
+    Prendre 100 grammes de céleri-rave, enlever la peau. Le céleri vert est aussi utilisable. Couper dans le sens de la longueur puis en cubes. Faire de même avec le céleri ordinaire.
+
+bolognese_4:
+  recette: spaghetti_bolognaise
+  description: >
+    La dernière légume sera une carotte de 100 grammes. Enlever la peau, couper en morceaux, puis essayer de couper en cubes de la même taille que le céleri. Mettre tous les légumes de côté.
+
+bolognese_5:
+  recette: spaghetti_bolognaise
+  description: >
+    Dans un petit bol, ajouter 4 cuillères à soupe de purée de tomate concentrée (environ 10 grammes par cuillère). Ajouter un petit peu d'eau, mélanger jusqu'à obtenir une consistance crémeuse.
+
+bolognese_6:
+  recette: spaghetti_bolognaise
+  description: >
+    Préparer 400 grammes de bouillon. Utiliser du bouillon de légumes, de poulet ou de bœuf selon la préférence.
+
+bolognese_7:
+  recette: spaghetti_bolognaise
+  description: >
+    Ajouter un peu d'huile dans une poêle, ajouter les légumes et les faire revenir jusqu'à ce qu'ils soient un peu tendres et colorés. Une fois colorés, il est temps d'ajouter 200 grammes de viande hachée à 5-7% de matière grasse.
+
+bolognese_8:
+  recette: spaghetti_bolognaise
+  description: >
+    Incorporer la viande dans la poêle et la défaire avec une cuillère en bois. Continuer pendant quelques minutes jusqu'à ce que toute la viande soit bien dorée, ce qui développera beaucoup de saveurs.
+
+bolognese_9:
+  recette: spaghetti_bolognaise
+  description: >
+    Après 5 à 7 minutes, ajouter la purée de tomate complète, bien mélanger jusqu'à ce que tout dans la poêle soit couvert de tomate. Une fois que tout a pris une belle couleur, ajouter le bouillon.
+
+bolognese_10:
+  recette: spaghetti_bolognaise
+  description: >
+    Ajouter du sel et du poivre pour l'assaisonnement, ainsi que des flocons de chili ou de l'origan si désiré. Laisser mijoter à feu moyen avec le couvercle fermé pendant 20 à 30 minutes, jusqu'à obtenir une consistance lisse.
+
+bolognese_11:
+  recette: spaghetti_bolognaise
+  description: >
+    Pour les pâtes, choisir entre 100 grammes de spaghetti réguliers par personne ou des nouilles shirataki pour une option très faible en calories. Préférer les spaghetti réguliers pour cette recette.
+
+bolognese_12:
+  recette: spaghetti_bolognaise
+  description: >
+    Cuire 100 grammes de spaghetti comme indiqué, puis ajouter la moitié de la sauce bolognese sur une assiette. Cette quantité suffit pour 2-3 personnes. La recette entière contient 372 calories, 29g de glucides, 10g de lipides et 47g de protéines.
+
+
+
+
+
+shakshuka_1:
+  recette: shakshuka
+  description: >
+    Commencer avec un poivron rouge d'environ 100g, enlever les graines, couper en lanières puis en cubes.
+
+shakshuka_2:
+  recette: shakshuka
+  description: >
+    Découper un gros oignon blanc d'environ 100g en dés.
+
+shakshuka_3:
+  recette: shakshuka
+  description: >
+    Peser 10g d'huile d'olive qui ajoutera 90 calories.
+
+shakshuka_4:
+  recette: shakshuka
+  description: >
+    Faire revenir l'oignon et le poivron à feu moyen jusqu'à ce qu'ils commencent à caraméliser et brunir, ce qui développera une saveur délicieuse avec la sauce tomate ajoutée plus tard.
+
+shakshuka_5:
+  recette: shakshuka
+  description: >
+    Après 6-7 minutes de cuisson, ajouter deux gousses d'ail pressées, faire frire pendant 30 secondes puis ajouter une boîte entière de tomates entières de 400g.
+
+shakshuka_6:
+  recette: shakshuka
+  description: >
+    Ajouter un peu d'eau, une cuillère à soupe de paprika fumé et une cuillère à café de poudre de chili fort.
+
+shakshuka_7:
+  recette: shakshuka
+  description: >
+    Écraser les tomates jusqu'à obtenir des morceaux de la taille des légumes, mélanger, saler généreusement et ajouter du poivre noir. Couvrir et laisser mijoter à feu moyen pendant 10 minutes.
+
+shakshuka_8:
+  recette: shakshuka
+  description: >
+    Retirer le couvercle et laisser mijoter encore 5-6 minutes jusqu'à obtenir une sauce tomate épaisse.
+
+shakshuka_9:
+  recette: shakshuka
+  description: >
+    Faire des trous dans la sauce pour chaque œuf, craquer les œufs dans les trous et couvrir les blancs d'un peu de sauce pour aider à leur cuisson.
+
+shakshuka_10:
+  recette: shakshuka
+  description: >
+    Couvrir et laisser mijoter 5-7 minutes jusqu'à ce que les œufs soient cuits comme des œufs pochés. Ajouter du persil haché et quelques olives noires sur le dessus.
+
+shakshuka_11:
+  recette: shakshuka
+  description: >
+    Pour servir, faire griller deux petites tranches de pain avec un spray d'huile d'olive et une gousse d'ail pressée jusqu'à ce qu'elles soient dorées et croustillantes. Utiliser comme base de l'assiette, ajouter un œuf et de la sauce pour l'expérience ultime.
+
+
+
+hash_1:
+  recette: pommes_terre_roties
+  description: >
+    Commencer avec une grande pomme de terre de 250g. La nettoyer à l'eau froide avec une brosse sans la peler. La couper en petits cubes.
+
+hash_2:
+  recette: pommes_terre_roties
+  description: >
+    Placer les cubes de pomme de terre dans un bol et les micro-ondes à 600 watts pendant 5 minutes pour pré-cuire et former une couche extérieure qui deviendra croustillante à la poêle.
+
+hash_3:
+  recette: pommes_terre_roties
+  description: >
+    Découper un petit oignon (70g) en dés et préparer 100g de jambon de poulet (107 calories, 19g de protéines).
+
+hash_4:
+  recette: pommes_terre_roties
+  description: >
+    Couper le jambon en forme similaire aux cubes de pomme de terre. Optionnel : Ajouter un poivron rouge ou des carottes pour plus de volume.
+
+hash_5:
+  recette: pommes_terre_roties
+  description: >
+    Utiliser trois œufs entiers. Pour moins de calories et plus de protéines, envisager d'utiliser uniquement des blancs d'œufs mais inclure au moins un œuf entier pour le goût.
+
+hash_6:
+  recette: pommes_terre_roties
+  description: >
+    Ajouter 5g d'huile d'olive dans une poêle à feu moyen-élevé, puis faire frire les pommes de terre pré-cuites pendant 3-4 minutes, en remuant occasionnellement.
+
+hash_7:
+  recette: pommes_terre_roties
+  description: >
+    Ajouter l'oignon et le jambon à la poêle, continuer à frire pendant 3 minutes. Ajouter un peu plus d'huile si nécessaire.
+
+hash_8:
+  recette: pommes_terre_roties
+  description: >
+    Faire trois trous avec la spatule pour les œufs. Ajouter un peu d'huile dans chaque trou, puis casser les œufs dedans.
+
+hash_9:
+  recette: pommes_terre_roties
+  description: >
+    Assaisonner avec du sel, du poivre noir fraîchement moulu, du chili en poudre pour un peu de piquant et ajouter environ 25g de sauce soja pour une couche umami.
+
+hash_10:
+  recette: pommes_terre_roties
+  description: >
+    Couvrir et laisser cuire à feu moyen-doux pendant 2-3 minutes jusqu'à ce que les œufs soient cuits. Éteindre le feu et ajouter du cilantro frais sur le dessus.
+
+salade_cesar_1:
+  recette: salade_cesar
+  description: >
+    Préparer la vinaigrette : Mélanger 60g de yaourt grec à 0,2% de matière grasse avec 2-3g d'huile d'olive en spray, le jus de demi-citron, 5g de moutarde, une pincée de sel, du poivre noir, ¼ cuillère à café de poudre d'ail, et du dill frais haché. Réserver.
+
+salade_cesar_2:
+  recette: salade_cesar
+  description: >
+    Pour les légumes : Utiliser de la laitue romaine (environ 280g) et deux poignées d'épinards (60g). Laver et égoutter.
+
+salade_cesar_3:
+  recette: salade_cesar
+  description: >
+    Pour la source de protéine : Assaisonner deux cuisses de poulet désossées (180g total) avec du sel, du poivre, de l'ail en poudre, et de l'origan. Chauffer une poêle à feu moyen avec un peu d'huile d'olive et cuire le poulet jusqu'à ce qu'il soit bien doré et cuit à travers, environ 7-10 minutes de chaque côté.
+
+salade_cesar_4:
+  recette: salade_cesar
+  description: >
+    Ajouter de l'avocat comme source de matières grasses saines, en utilisant une demi-avocat coupé en tranches.
+
+salade_cesar_5:
+  recette: salade_cesar
+  description: >
+    Assembler la salade dans un grand bol en commençant par la laitue et l'épinard. Ajouter les tranches d'avocat.
+
+salade_cesar_6:
+  recette: salade_cesar
+  description: >
+    Une fois le poulet cuit, le laisser reposer quelques minutes, puis le couper en morceaux. Ajouter le poulet au bol de salade.
+
+salade_cesar_7:
+  recette: salade_cesar
+  description: >
+    Pour une touche finale, préparer une sauce crémeuse avec 6g de poudre de cacahuètes (PB2) et un peu d'eau, puis arroser le poulet de cette sauce.
+
+salade_cesar_8:
+  recette: salade_cesar
+  description: >
+    Ajouter le fromage feta émietté sur le dessus de la salade pour compléter. Mélanger délicatement la salade avec la vinaigrette réservée avant de servir.

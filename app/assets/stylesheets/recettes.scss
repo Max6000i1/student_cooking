@@ -1,0 +1,122 @@
+
+
+.hero {
+    background-color: #eee;
+    padding: 2em;
+    text-align: center;
+
+    font-size: large;
+}
+
+.hero {
+    background: asset-url('ingredients.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.11); /* Améliore la lisibilité sur des fonds variés */
+    position: relative;
+    z-index: 1;
+}
+
+/* Superposition semi-transparente */
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Assombrir légèrement l'image pour améliorer le contraste du texte */
+    z-index: -1;
+}
+
+.recettes-vedettes {
+    padding: 2em;
+}
+
+.recettes-vedettes h2{
+    color: #c94e3a;
+}
+
+.recettes-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    column-gap: 2%;
+}
+
+.recette {
+    width: 28%;
+    margin-bottom: 1em;
+    background-color: rgba(238, 238, 238, 0.36);
+    padding: 2em;
+
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.recette:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.recettes-header {
+    background-color: #ff6347; /* Couleur de fond attrayante */
+    color: #ffffff; /* Texte en blanc pour le contraste */
+    padding: 15px; /* Espacement interne */
+    border-radius: 8px 8px 0 0; /* N'arrondit que les coins supérieurs */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Ombre portée légère */
+    margin-bottom: 10px; /* Marge pour séparer des éléments suivants */
+    text-align: center; /* Centre le texte */
+}
+
+.recettes-header h3 {
+    margin: 0 0 10px 0; /* Enlève la marge par défaut du h3 et ajoute un peu d'espace au bas */
+    font-size: 1.5rem; /* Taille de police pour le nom de la recette */
+    font-weight: bold; /* Rend le texte plus lisible */
+}
+
+.recettes-header p {
+    margin: 0; /* Enlève les marges par défaut */
+    font-size: 1.2rem; /* Taille de police pour le temps */
+    font-style: italic; /* Style italique pour différencier du titre */
+}
+
+.recettes-header-link {
+    text-decoration: none;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block; /* Ou `block` selon le contexte */
+    border-radius: 0 0 8px 8px; /* Arrondit seulement les coins inférieurs */
+    overflow: hidden; /* Empêche l'image de déborder du conteneur arrondi */
+}
+
+.image-container img {
+    display: block; /* Élimine l'espace blanc en bas de l'image */
+    width: 100%; /* Ajustez selon le besoin */
+    height: auto; /* Garde l'aspect ratio de l'image */
+    transition: transform 0.3s ease-in-out; /* Anime le changement de taille */
+    border-radius: 0 0 8px 8px; /* Assure que l'image respecte l'arrondi du conteneur */
+}
+
+.image-container:hover img {
+    transform: scale(1.05); /* Agrandit l'image de 10% lors du survol */
+}
+
+.recette img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h3 a {
+    color: inherit; /* Le lien utilise la couleur de texte du h3 */
+    text-decoration: none; /* Enlève le soulignement par défaut des liens */
+    font-weight: inherit; /* Hérite le gras du h3 si nécessaire */
+    /* Ajoutez d'autres propriétés selon le besoin */
+}

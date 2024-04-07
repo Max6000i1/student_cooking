@@ -1,0 +1,19 @@
+<p style="color: green"><%= notice %></p>
+<section class="hero">
+  <h1>Bienvenue sur notre site de recettes</h1>
+  <p>Découvrez des recettes faciles, pas chères et délicieuses pour manger bien tous les jours !</p>
+</section>
+<section class="recettes-vedettes">
+  <h2>Recettes vedettes</h2>
+
+  <div class="recettes-container">
+
+    <% @recettes.each do |recette| %>
+      <article class="recette">
+        <%= render 'recette_index', recette: recette %>
+      </article>
+    <% end %>
+  </div>
+</section>
+
+

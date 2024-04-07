@@ -1,0 +1,2 @@
+omelette_image_blob: <%= ActiveStorage::FixtureSet.blob(    filename: "omelette.jpg.webp",    content_type: "image/webp",    service_name: "local"  ) %>
+riz_saute_image_blob: <%= ActiveStorage::FixtureSet.blob(    filename: "omelette.jpg.webp",    content_type: "image/webp",    service_name: "local"  ) %>

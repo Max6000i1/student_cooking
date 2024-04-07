@@ -1,0 +1,30 @@
+<div class="recette-header" style="background-image: url('<%= url_for(@recette.image) %>');">
+  <div class="overlay">
+    <div class="overlay_header">
+      <h1><%= recette.nom %></h1>
+      <p>Temps de préparation: <%= recette.temps %> minutes | 4 personnes</p>
+    </div>
+  </div>
+</div>
+<div class="recette-content">
+  <section class="ingredients">
+    <h2>Ingrédients</h2>
+    <ul>
+      <% recette.ingredients.each do |ingredient| %>
+        <li><%= ingredient.resume %></li>
+      <% end %>
+    </ul>
+  </section>
+  <section class="etapes">
+    <h2>Étapes de Réalisation</h2>
+    <div class="etapes-container">
+
+      <% recette.etapes.each_with_index do |etape, index| %>
+        <div class="etape">
+          <span class="numero"><%= index + 1 %></span>
+          <p><%= etape.description %></p>
+        </div>
+      <% end %>
+    </div>
+  </section>
+</div>

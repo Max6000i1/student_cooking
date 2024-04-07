@@ -1,0 +1,17 @@
+<div id="<%= dom_id recette %>">
+  <%= link_to recette_path(recette.id), class: 'recettes-header-link' do %>
+    <header class="recettes-header">
+      <h3><%= recette.nom %></h3>
+      <p>
+        <%= recette.temps %> minutes
+      </p>
+    </header>
+  <% end %>
+  <% if recette.image.attached? %>
+    <div class="image-container">
+      <%= link_to recette_path(recette.id) do %>
+        <%= image_tag recette.image, class: "recette-image", alt: recette.nom %>
+      <% end %>
+    </div>
+  <% end %>
+</div>

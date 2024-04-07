@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+omelette:
+  nom: Omelette aux champignons et à la féta
+  temps: 15
+
+riz_saute:
+  nom: Riz sauté aux légumes
+  temps: 30
+
+shakshuka:
+  nom: Shakshuka
+  temps: 10
+
+salade_cesar:
+  nom: Salade César
+  temps: 15
+
+gyros:
+  nom: Gyros
+  temps: 22
+
+pommes_terre_roties:
+  nom: Pommes de terre rôties
+  temps: 30
+
+spaghetti_bolognaise:
+    nom: Spaghetti à la bolognaise
+    temps: 20

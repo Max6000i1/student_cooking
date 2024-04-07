@@ -1,0 +1,12 @@
+omelette_image:
+  name: image
+  record_type: Recette
+  record: omelette
+  blob: omelette_image_blob
+
+riz_saute_image:
+  name: image
+  record_type: Recette
+  record: riz_saute
+  blob: riz_saute_image_blob
+

@@ -1,0 +1,453 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+omelette_oeufs:
+  nom: oeufs
+  quantite: 6
+  unite: u
+  recette: omelette
+
+omelette_feta:
+  nom: féta
+  quantite: 50
+  unite: g
+  recette: omelette
+
+
+omelette_champignons:
+  nom: champignons de Paris
+  quantite: 50
+  unite: g
+  recette: omelette
+
+omelette_beurre:
+  nom: beurre
+  quantite: 20
+  unite: g
+  recette: omelette
+
+omelette_persil:
+  nom: persil frais
+  quantite:
+  unite:
+  recette: omelette
+
+omelette_sel:
+  nom: sel
+  quantite: 2
+  unite: g
+  recette: omelette
+
+riz_saute_riz_jasmin:
+  nom: Riz Jasmin
+  quantite: 50
+  unite: g
+  recette: riz_saute
+
+riz_saute_blanc_poulet:
+  nom: Blanc de poulet
+  quantite: 180
+  unite: g
+  recette: riz_saute
+
+
+riz_saute_oignon:
+  nom: Oignon
+  quantite: 50
+  unite: g
+  recette: riz_saute
+
+riz_saute_poivron_rouge:
+  nom: Poivron rouge
+  quantite: 1
+  unite: u
+  recette: riz_saute
+
+riz_saute_carotte:
+  nom: Carotte
+  quantite: 1
+  unite: u
+  recette: riz_saute
+
+riz_saute_petit_pois:
+  nom: Petit pois surgelés
+  quantite: 50
+  unite: g
+  recette: riz_saute
+
+riz_saute_oeuf:
+  nom: Œuf
+  quantite: 2
+  unite: u
+  recette: riz_saute
+
+riz_saute_sauce_soja:
+  nom: Sauce soja
+  quantite: 20
+  unite: g
+  recette: riz_saute
+
+riz_saute_ail:
+  nom: Ail
+  quantite: 2
+  unite: gousses
+  recette: riz_saute
+
+riz_saute_huile_sesame:
+  nom: Huile de sésame
+  quantite: 1
+  unite: càs
+  recette: riz_saute
+
+riz_saute_huile_tournesol:
+  nom: Huile de tournesol
+  quantite: 1
+  unite: càs
+  recette: riz_saute
+
+pommes_terre_roties_pommes_de_terre:
+  nom: Pommes de terre
+  quantite: 250
+  unite: g
+  recette: pommes_terre_roties
+
+pommes_terre_roties_oeufs:
+  nom: Œufs
+  quantite: 3
+  unite: u
+  recette: pommes_terre_roties
+
+pommes_terre_roties_oignon:
+  nom: Oignon
+  quantite: 70
+  unite: g
+  recette: pommes_terre_roties
+
+pommes_terre_roties_jambon_poulet:
+  nom: Jambon poulet
+  quantite: 100
+  unite: g
+  recette: pommes_terre_roties
+
+pommes_terre_roties_assaisonnement:
+  nom: Sel, poivre, poudre de chili
+  quantite:
+  unite:
+  recette: pommes_terre_roties
+
+pommes_terre_roties_sauce_soja:
+  nom: Sauce soja
+  quantite: 25
+  unite: g
+  recette: pommes_terre_roties
+
+pommes_terre_roties_huile:
+  nom: Huile
+  quantite: 7
+  unite: g
+  recette: pommes_terre_roties
+
+
+
+
+gyros_pain_pita_farine:
+  nom: Farine AP
+  quantite: 50
+  unite: g
+  recette: gyros
+
+gyros_pain_pita_sel:
+  nom: Sel
+  quantite: 1/2
+  unite:
+  recette: gyros
+
+gyros_pain_pita_levure:
+  nom: Levure chimique
+  quantite: 1/2
+  unite:
+  recette: gyros
+
+gyros_pain_pita_yaourt_grec:
+  nom: Yaourt grec
+  quantite: 60
+  unite: g
+  recette: gyros
+
+gyros_pain_pita_tzatziki_ail_poudre:
+  nom: Tzatziki à l'ail en poudre
+  quantite:
+  unite:
+  recette: gyros
+
+gyros_pain_pita_yaourt_grec:
+  nom: Yaourt grec entier ou allégé
+  quantite: 50
+  unite: g
+  recette: gyros
+
+gyros_pain_pita_huile_olive:
+  nom: Huile d'olive
+  quantite: 4
+  unite: g
+  recette: gyros
+
+gyros_pain_pita_sel_2:
+  nom: Sel
+  quantite:
+  unite:
+  recette: gyros
+
+gyros_pain_pita_citron:
+  nom: Citron
+  quantite: 1/2
+  unite: u
+  recette: gyros
+
+gyros_pain_pita_aneth:
+  nom: Aneth haché
+  quantite:
+  unite:
+  recette: gyros
+
+gyros_pain_pita_ail:
+  nom: Ail
+  quantite: 1
+  unite: gousse
+  recette: gyros
+
+
+
+
+spaghetti_bolognaise_ail:
+  nom: Ail
+  quantite: 3
+  unite: gousses
+  recette: spaghetti_bolognaise
+
+spaghetti_bolognaise_tomates_cerises:
+  nom: Tomates cerises
+  quantite: 250
+  unite: g
+  recette: spaghetti_bolognaise
+
+spaghetti_bolognaise_thon:
+  nom: Thon en conserve au naturel
+  quantite: 150
+  unite: g
+  recette: spaghetti_bolognaise
+
+spaghetti_bolognaise_huile_olive:
+  nom: Huile d'olive
+  quantite: 2
+  unite: càs
+  recette: spaghetti_bolognaise
+
+spaghetti_bolognaise_eau:
+  nom: Eau
+  quantite: 2
+  unite: càs
+  recette: spaghetti_bolognaise
+
+spaghetti_bolognaise_sel:
+  nom: Sel
+  quantite: 1
+  unite: càs
+  recette: spaghetti_bolognaise
+
+spaghetti_bolognaise_poivre_noir:
+  nom: Poivre noir
+  quantite: 5
+  unite: g
+  recette: spaghetti_bolognaise
+
+spaghetti_bolognaise_piment_flocons:
+  nom: Piment en flocons
+  quantite: 5
+  unite: g
+  recette: spaghetti_bolognaise
+
+spaghetti_bolognaise_pates:
+  nom: Spaghetti classique ou Nouilles de konjac
+  quantite: 100g (spaghetti) / 200g (konjac)
+  unite: g
+  recette: spaghetti_bolognaise
+
+
+
+
+
+salade_cesar_romaine:
+  nom: Salade
+  quantite: 280
+  unite: g
+  recette: salade_cesar
+
+salade_cesar_epinards:
+  nom: épinards
+  quantite: 60
+  unite: g
+  recette: salade_cesar
+
+salade_cesar_tomates:
+  nom: Tomates
+  quantite: 100
+  unite: g
+  recette: salade_cesar
+
+salade_cesar_concombre:
+  nom: Concombre
+  quantite: 200
+  unite: g
+  recette: salade_cesar
+
+salade_cesar_oignon:
+  nom: Oignon
+  quantite: 50
+  unite: g
+  recette: salade_cesar
+
+salade_cesar_feta:
+  nom: Feta
+  quantite: 20
+  unite: g
+  recette: salade_cesar
+
+salade_cesar_poulet:
+  nom: Chicken thighs
+  quantite: 180
+  unite: g
+  recette: salade_cesar
+
+salade_cesar_assaisonnement:
+  nom: Sel
+  quantite: 3
+  unite: g
+  recette: salade_cesar
+
+salade_cesar_poivre:
+  nom: Poivre noir
+  quantite: 5
+  unite: g
+  recette: salade_cesar
+
+salade_cesar_ail_poudre:
+  nom: Ail en poudre
+  quantite: 3
+  unite: g
+  recette: salade_cesar
+
+salade_cesar_origan:
+  nom: Origan
+  quantite: 3
+  unite: g
+  recette: salade_cesar
+
+salade_cesar_yaourt_grec:
+  nom: Greek yogurt
+  quantite: 60
+  unite: g
+  recette: salade_cesar
+
+salade_cesar_huile:
+  nom: Huile
+  quantite: 2
+  unite: g
+  recette: salade_cesar
+
+salade_cesar_citron:
+  nom: Citron 1/2
+  quantite: 1/2
+  unite: u
+  recette: salade_cesar
+
+salade_cesar_moutarde:
+  nom: Moutarde
+  quantite: 5
+  unite: g
+  recette: salade_cesar
+
+salade_cesar_aneth:
+  nom: Aneth
+  quantite: 3
+  unite: g
+  recette: salade_cesar
+
+
+shakshuka_poivron_rouge:
+  nom: Poivron rouge
+  quantite: 1
+  unite: u
+  recette: shakshuka
+
+shakshuka_oignon_blanc:
+  nom: Oignon blanc
+  quantite: 1
+  unite: u
+  recette: shakshuka
+
+shakshuka_huile_olive:
+  nom: Huile d'olive
+  quantite: 10
+  unite: g
+  recette: shakshuka
+
+shakshuka_ail:
+  nom: Ail
+  quantite: 2
+  unite: gousses
+  recette: shakshuka
+
+shakshuka_tomates_concassees:
+  nom: Tomates concassées en conserve
+  quantite: 400
+  unite: g
+  recette: shakshuka
+
+shakshuka_eau:
+  nom: Eau
+  quantite: 4
+  unite: càs
+  recette: shakshuka
+
+shakshuka_paprika_fume:
+  nom: Paprika fumé
+  quantite: 1
+  unite: càs
+  recette: shakshuka
+
+shakshuka_chili_poudre:
+  nom: Chili en poudre
+  quantite: 1
+  unite: càc
+  recette: shakshuka
+
+shakshuka_sel:
+  nom: Sel
+  quantite: 2
+  unite: g
+  recette: shakshuka
+
+shakshuka_poivre_noir:
+  nom: Poivre noir
+  quantite: 2
+  unite: g
+  recette: shakshuka
+
+shakshuka_oeuf:
+  nom: Œuf
+  quantite: 3
+  unite: u
+  recette: shakshuka
+
+shakshuka_feta:
+  nom: Feta
+  quantite: 50
+  unite: g
+  recette: shakshuka
+
+shakshuka_pain:
+  nom: Pain
+  quantite: 100
+  unite: g
+  recette: shakshuka
+
