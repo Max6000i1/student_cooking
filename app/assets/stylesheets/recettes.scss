@@ -39,8 +39,10 @@
 .recettes-container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
-    column-gap: 2%;
+    justify-content: center; /* Centrer horizontalement les "cards" */
+    align-items: flex-start; /* Aligner les éléments au début verticalement */
+    align-content: center; /* Gérer l'espacement uniformément dans les conteneurs multilignes */
+    gap: 2%; /* Espacement entre les "cards" */
 }
 
 .recette {
