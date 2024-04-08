@@ -3,6 +3,7 @@ class CreateRecettes < ActiveRecord::Migration[7.1]
     create_table :recettes do |t|
       t.string :nom
       t.integer :temps
+      t.string :nutriscore
 
       t.timestamps
     end

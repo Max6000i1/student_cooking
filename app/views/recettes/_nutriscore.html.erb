@@ -1,0 +1,7 @@
+<div class="nutriscore">
+  <% ['A', 'B', 'C', 'D', 'E'].each do |score| %>
+    <div class="nutriscore-letter nutriscore-<%= score.downcase %> <%= 'nutriscore-active' if recette.nutriscore == score %>">
+      <%= score %>
+    </div>
+  <% end %>
+</div>

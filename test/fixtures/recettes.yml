@@ -3,27 +3,34 @@
 omelette:
   nom: Omelette aux champignons et à la féta
   temps: 15
+  nutriscore: A
 
 riz_saute:
   nom: Riz sauté aux légumes
   temps: 30
+  nutriscore: B
 
 shakshuka:
   nom: Shakshuka
   temps: 10
+  nutriscore: A
 
 salade_cesar:
   nom: Salade César
   temps: 15
+  nutriscore: C
 
 gyros:
   nom: Gyros
   temps: 22
+  nutriscore: A
 
 pommes_terre_roties:
   nom: Pommes de terre rôties
   temps: 30
+  nutriscore: B
 
 spaghetti_bolognaise:
     nom: Spaghetti à la bolognaise
     temps: 20
+    nutriscore: B

@@ -1,0 +1,26 @@
+.nutriscore {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.nutriscore-letter {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.nutriscore-a { background-color: #038141; }
+.nutriscore-b { background-color: #85bb2f; }
+.nutriscore-c { background-color: #fecb02; }
+.nutriscore-d { background-color: #ee8100; }
+.nutriscore-e { background-color: #e63e11; }
+
+.nutriscore-letter.nutriscore-active {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px #000;
+}
