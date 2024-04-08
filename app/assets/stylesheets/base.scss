@@ -47,11 +47,6 @@ body, html {
 .site-header nav ul {
   list-style-type: none;
   padding: 0;
-}
-
-.site-header nav ul {
-  list-style-type: none;
-  padding: 0;
   display: flex; /* Affiche les éléments de navigation en ligne */
   flex-wrap: wrap; /* Permet aux éléments de navigation de passer à la ligne sur de petits écrans */
 }
@@ -59,7 +54,6 @@ body, html {
 .site-header nav ul li {
   margin: 0 10px;
 }
-
 
 .site-header nav ul li a {
   color: white;

@@ -88,23 +88,20 @@
     display: inline-block; /* Ou `block` selon le contexte */
     border-radius: 0 0 8px 8px; /* Arrondit seulement les coins inférieurs */
     overflow: hidden; /* Empêche l'image de déborder du conteneur arrondi */
+    width: 100%; /* Prend toute la largeur disponible dans .recette */
+    height: 600px; /* Hauteur fixe pour toutes les images */
 }
 
 .image-container img {
     display: block; /* Élimine l'espace blanc en bas de l'image */
-    width: 100%; /* Ajustez selon le besoin */
-    height: auto; /* Garde l'aspect ratio de l'image */
+    width: 100%; /* Remplit la largeur du conteneur */
+    height: 100%; /* Remplit la hauteur du conteneur */
+    object-fit: cover; /* Couvre le conteneur, en rognant au besoin */
     transition: transform 0.3s ease-in-out; /* Anime le changement de taille */
-    border-radius: 0 0 8px 8px; /* Assure que l'image respecte l'arrondi du conteneur */
 }
 
 .image-container:hover img {
-    transform: scale(1.05); /* Agrandit l'image de 10% lors du survol */
-}
-
-.recette img {
-    width: 100%;
-    height: auto;
+    transform: scale(1.05); /* Agrandit l'image de 5% lors du survol */
 }
 
 footer {
