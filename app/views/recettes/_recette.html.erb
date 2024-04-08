@@ -1,4 +1,4 @@
-<div class="recette-header" style="background-image: url('<%= url_for(@recette.image) %>');">
+<div class="recette-header" style="background-image: url('<%= @recette.image.attached? ? url_for(@recette.image) : asset_path('ingredients.jpg')%>');">
   <div class="overlay">
     <div class="overlay_header">
       <h1><%= recette.nom %></h1>
