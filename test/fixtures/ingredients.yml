@@ -313,7 +313,7 @@ salade_cesar_feta:
   recette: salade_cesar
 
 salade_cesar_poulet:
-  nom: Chicken thighs
+  nom: cuisses de poulet
   quantite: 180
   unite: g
   recette: salade_cesar
@@ -343,7 +343,7 @@ salade_cesar_origan:
   recette: salade_cesar
 
 salade_cesar_yaourt_grec:
-  nom: Greek yogurt
+  nom: Yaourt grec
   quantite: 60
   unite: g
   recette: salade_cesar

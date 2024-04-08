@@ -1,3 +1,6 @@
 omelette_image_blob: <%= ActiveStorage::FixtureSet.blob(    filename: "omelette.jpg.webp",    content_type: "image/webp",    service_name: "local"  ) %>
 riz_saute_image_blob: <%= ActiveStorage::FixtureSet.blob(    filename: "riz_saute_legume.jpg",    content_type: "image/webp",    service_name: "local"  ) %>
 shakshuka_image_blob: <%= ActiveStorage::FixtureSet.blob(    filename: "shakshuka.jpg",    content_type: "image/webp",    service_name: "local"  ) %>
+gyros_image_blob: <%= ActiveStorage::FixtureSet.blob(    filename: "gyros.jpg",    content_type: "image/webp",    service_name: "local"  ) %>
+spaghetti_bolognese_image_blob: <%= ActiveStorage::FixtureSet.blob(    filename: "spaghetti_bolognese.jpg",    content_type: "image/webp",    service_name: "local"  ) %>
+salade_cesar_image_blob: <%= ActiveStorage::FixtureSet.blob(    filename: "salade_cesar.jpg",    content_type: "image/webp",    service_name: "local"  ) %>

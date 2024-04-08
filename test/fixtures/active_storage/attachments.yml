@@ -16,3 +16,23 @@ shakshuka_image:
     record: shakshuka
     blob: shakshuka_image_blob
 
+gyros_image:
+  name: image
+  record_type: Recette
+  record: gyros
+  blob: gyros_image_blob
+
+
+salade_cesar_image:
+  name: image
+  record_type: Recette
+  record: salade_cesar
+  blob: salade_cesar_image_blob
+
+
+spaghetti_bolognaise_image:
+  name: image
+  record_type: Recette
+  record: spaghetti_bolognaise
+  blob: spaghetti_bolognese_image_blob
+
