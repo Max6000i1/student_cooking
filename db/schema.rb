@@ -65,6 +65,10 @@ ActiveRecord::Schema[7.1].define(version: 2024_04_05_140349) do
     t.integer "temps"
     t.integer "personnes"
     t.string "nutriscore"
+    t.integer "calories"
+    t.integer "glucides"
+    t.integer "lipides"
+    t.integer "proteines"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

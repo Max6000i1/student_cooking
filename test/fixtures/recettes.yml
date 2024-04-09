@@ -5,12 +5,20 @@ omelette:
   temps: 15
   personnes: 2
   nutriscore: A
+  calories: 300
+  glucides: 10
+  lipides: 20
+  proteines: 15
 
 riz_saute:
   nom: Riz sauté aux légumes
   temps: 30
   personnes: 1
   nutriscore: B
+  calories: 300
+  glucides: 10
+  lipides: 20
+  proteines: 15
 
 shakshuka:
   nom: Shakshuka

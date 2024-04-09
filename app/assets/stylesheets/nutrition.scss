@@ -1,0 +1,27 @@
+
+.nutrition-info {
+    /* Styles du conteneur */
+    margin-top: 20px;
+    font-size: smaller;
+}
+
+.nutrition-info table-container {
+    /* Styles du tableau */
+    width: 100%;
+    padding: 20px;
+}
+
+.nutrition-info table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition-info th, .nutrition-info td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.nutrition-info th {
+    background-color: #f2f2f2;
+}

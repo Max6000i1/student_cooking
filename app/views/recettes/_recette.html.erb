@@ -14,6 +14,9 @@
         <li><%= ingredient.resume %></li>
       <% end %>
     </ul>
+    <section class="nutrition">
+      <%= render 'recettes/nutrition', recette: recette %>
+    </section>
     <section class="nutriscore">
       <%= render 'recettes/nutriscore', recette: recette %>
     </section>
