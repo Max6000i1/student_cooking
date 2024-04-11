@@ -36,3 +36,26 @@ spaghetti_bolognaise_image:
   record: spaghetti_bolognaise
   blob: spaghetti_bolognese_image_blob
 
+pommes_terre_roties_image:
+  name: image
+  record_type: Recette
+  record: pommes_terre_roties
+  blob: pommes_terre_roties_image_blob
+
+poulet_olives_image:
+  name: image
+  record_type: Recette
+  record: poulet_olives
+  blob: poulet_olives_couscous_complet_image_blob
+
+briques_viande_hachee:
+    name: image
+    record_type: Recette
+    record: briques_viande_hachee
+    blob: briques_viande_hachee_image_blob
+
+ma3kouda_image:
+    name: image
+    record_type: Recette
+    record: ma3kouda
+    blob: ma3kouda_image_blob

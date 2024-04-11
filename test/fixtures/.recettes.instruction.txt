@@ -1,0 +1,45 @@
+format pour le fichier des recettes
+
+omelette:
+  nom: Omelette aux champignons et à la féta
+  temps: 15
+  personnes: 2
+  nutriscore: A
+
+ pour les ingredients et les etapes il faut absolument
+ reprendre le libelles princiaples comme nom de référence de la recette
+
+format pour le fichier des ingrédients
+
+omelette_oeufs:
+  nom: oeufs
+  quantite: 6
+  unite: u
+  recette: omelette <---- nom de la recette
+
+format pour le fichier des étapes
+
+omelette_1:
+  recette: omelette <---- nom de la recette
+  description: >
+    Battre les oeufs dans un saladier
+
+ copier les fichier image (jpg) dans le dossier files
+ créer ensuite les attachments et les blobs
+
+format pour le fichier des  attachments:
+
+omelette_image:
+  name: image
+  record_type: Recette
+  record: omelette <---- nom de la recette
+  blob: omelette_image_blob  <---- nom du blob
+
+ format pour le fichier des blobs:
+
+ omelette_image_blob: <%= ActiveStorage::FixtureSet.blob(    filename: "omelette.jpg.webp",    content_type: "image/webp",    service_name: "local"  ) %>
+                                                                           ^---- nom du fichier image
+
+
+
+

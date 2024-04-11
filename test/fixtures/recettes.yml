@@ -4,48 +4,98 @@ omelette:
   nom: Omelette aux champignons et à la féta
   temps: 15
   personnes: 2
-  nutriscore: A
-  calories: 300
-  glucides: 10
-  lipides: 20
-  proteines: 15
+  nutriscore: B
+  calories: 399
+  glucides: 8
+  lipides: 33
+  proteines: 24
 
 riz_saute:
   nom: Riz sauté aux légumes
   temps: 30
   personnes: 1
   nutriscore: B
-  calories: 300
-  glucides: 10
-  lipides: 20
-  proteines: 15
+  calories: 627
+  glucides: 69
+  lipides: 16
+  proteines: 57
 
 shakshuka:
   nom: Shakshuka
   temps: 10
   personnes: 1
   nutriscore: A
+  calories: 492
+  glucides: 33
+  lipides: 24
+  proteines: 26
 
 salade_cesar:
   nom: Salade César
   temps: 15
   personnes: 2
-  nutriscore: C
+  nutriscore: B
+  calories: 522
+  glucides: 31
+  lipides: 20
+  proteines: 54
 
 gyros:
   nom: Gyros
   temps: 22
   personnes: 1
-  nutriscore: A
+  nutriscore: C
+  calories: 558
+  glucides: 54
+  lipides: 19
+  proteines: 44
 
 pommes_terre_roties:
   nom: Pommes de terre rôties
-  temps: 30
+  temps: 15
   personnes: 1
-  nutriscore: B
+  nutriscore: A
+  calories: 615
+  glucides: 58
+  lipides: 24
+  proteines: 45
 
 spaghetti_bolognaise:
   nom: Spaghetti à la bolognaise
   temps: 20
   personnes: 1
   nutriscore: B
+  calories: 372
+  glucides: 29
+  lipides: 10
+  proteines: 47
+
+poulet_olives:
+  nom: Poulet aux olives
+  temps: 30
+  personnes: 1
+  nutriscore: B
+  calories: 572
+  glucides: 58
+  lipides: 20
+  proteines: 44
+
+briques_viande_hachee:
+  nom: Briques à la Viande Hachée (4 portions)
+  temps: 45
+  personnes: 4
+  nutriscore: B
+  calories: 345
+  glucides: 22
+  lipides: 20
+  proteines: 22
+
+ma3kouda:
+    nom: Ma3kouda
+    temps: 20
+    personnes: 1
+    nutriscore: B
+    calories: 546
+    glucides: 66
+    lipides: 24
+    proteines: 20

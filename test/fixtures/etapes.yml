@@ -303,3 +303,144 @@ salade_cesar_8:
   recette: salade_cesar
   description: >
     Ajouter le fromage feta émietté sur le dessus de la salade pour compléter. Mélanger délicatement la salade avec la vinaigrette réservée avant de servir.
+
+
+omelette_1:
+  recette: omelette
+  description: >
+    Commencer par 3 œufs entiers. Pour moins de calories, utiliser 2 œufs entiers et 2 blancs d'œufs.
+
+omelette_2:
+    recette: omelette
+    description: >
+        Ajouter 50g de champignons (de Paris si possible) coupé en dés. Pour plus de saveur, ajouter 50g de fêta.
+
+omelette_3:
+    recette: omelette
+    description: >
+        Chauffer une poêle antiadhésive à feu moyen. Ajouter un peu de beurre.
+
+omelette_4:
+    recette: omelette
+    description: >
+        Verser les œufs battus dans la poêle. Remuer doucement avec une spatule jusqu'à ce que les œufs commencent à prendre.
+
+omelette_5:
+    recette: omelette
+    description: >
+        Ajouter les champignons et la fêta sur un côté de l'omelette. Plier l'autre côté sur les garnitures.
+
+omelette_6:
+    recette: omelette
+    description: >
+        Laisser cuire pendant 1-2 minutes, puis retourner l'omelette pour cuire l'autre côté pendant 1-2 minutes supplémentaires.
+
+omelette_7:
+    recette: omelette
+    description: >
+        Servir chaud avec une salade verte ou des légumes grillés.
+
+omelette_8:
+    recette: omelette
+    description: >
+        Pour une version plus copieuse, ajouter des légumes supplémentaires comme des épinards, des poivrons ou des tomates.
+
+omelette_9:
+    recette: omelette
+    description: >
+        Pour une version plus légère, remplacer la fêta par du fromage cottage faible en gras.
+
+poulet_olives_1:
+  recette: poulet_olives
+  description: >
+    Commencez par retirer la peau des cuisses de poulet pour réduire la teneur en graisses saturées. Séchez les cuisses avec du papier absorbant.
+
+poulet_olives_2:
+  recette: poulet_olives
+  description: >
+    Faites chauffer une marmite à feu moyen et ajoutez 2 cuillères à soupe d'huile d'olive extra vierge. Saisissez les cuisses de poulet jusqu'à ce qu'elles soient dorées de tous les côtés.
+
+poulet_olives_3:
+  recette: poulet_olives
+  description: >
+    Ajoutez les oignons émincés dans la marmite et laissez-les cuire jusqu'à ce qu'ils soient translucides et légèrement dorés.
+
+poulet_olives_4:
+  recette: poulet_olives
+  description: >
+    Incorporez le sel, le poivre noir, le curcuma, le gingembre râpé et la coriandre fraîchement hachée. Mélangez bien pour que les épices enrobent uniformément le poulet et les oignons.
+
+poulet_olives_5:
+  recette: poulet_olives
+  description: >
+    Versez de l'eau à hauteur du poulet dans la marmite. Couvrez et laissez mijoter à feu doux jusqu'à ce que le poulet soit parfaitement cuit, environ 40 minutes.
+
+poulet_olives_6:
+  recette: poulet_olives
+  description: >
+    Dix minutes avant la fin de la cuisson, ajoutez les olives vertes dénoyautées dans la marmite. Laissez mijoter avec le poulet pour fusionner les saveurs.
+
+poulet_olives_7:
+  recette: poulet_olives
+  description: >
+    Pendant que le poulet mijote, préparez le couscous complet selon les instructions du paquet. Assurez-vous que le couscous reste moelleux et aéré.
+
+poulet_olives_8:
+  recette: poulet_olives
+  description: >
+    Servez le poulet et les olives chauds sur un lit de couscous complet. Garnissez avec le reste de coriandre fraîche pour une touche finale parfumée.
+
+poulet_olives_9:
+  recette: poulet_olives
+  description: >
+    Pour une touche de fraîcheur, accompagnez ce plat d'une salade verte ou de légumes de saison grillés.
+
+briques_viande_hachee_1:
+  recette: briques_viande_hachee
+  description: >
+    Dans une poêle, chauffez un peu d'huile d'olive à feu moyen. Ajoutez l'oignon finement haché et faites-le revenir jusqu'à ce qu'il soit translucide.
+
+briques_viande_hachee_2:
+  recette: briques_viande_hachee
+  description: >
+    Ajoutez la viande hachée à la poêle. Assaisonnez avec le sel, le poivre, la coriandre hachée, et l'ail en poudre. Faites cuire la viande jusqu'à ce qu'elle soit entièrement cuite, en remuant régulièrement.
+
+briques_viande_hachee_3:
+  recette: briques_viande_hachee
+  description: >
+    Une fois la viande cuite, retirez la poêle du feu. Ajoutez des morceaux de fromage de votre choix (type Kiri) à la préparation. Mélangez bien jusqu'à ce que le fromage commence à fondre et se mélange harmonieusement avec la viande.
+
+briques_viande_hachee_4:
+  recette: briques_viande_hachee
+  description: >
+    Préparez vos feuilles de briques selon la taille désirée. Placez une portion de la préparation de viande au centre de chaque feuille.
+
+ma3kouda_1:
+  recette: ma3kouda
+  description: >
+    Commencez par couper les pommes de terre en dés et les couvrir avec de l'eau bouillante. Laissez cuire à feu doux jusqu'à ce qu'elles soient tendres.
+
+ma3kouda_2:
+  recette: ma3kouda
+  description: >
+    Une fois les pommes de terre cuites, égouttez-les et mettez-les dans un saladier. Ajoutez le sel, le poivre, le curcuma et la coriandre hachée. Écrasez le mélange à l'aide d'une fourchette jusqu'à obtenir une consistance homogène.
+
+ma3kouda_3:
+  recette: ma3kouda
+  description: >
+    Incorporez l'œuf au mélange de pommes de terre pour lier les ingrédients. Si vous désirez ajouter du fromage, intégrez des petits morceaux de Kiri à ce moment.
+
+ma3kouda_4:
+  recette: ma3kouda
+  description: >
+    Formez des galettes avec le mélange. Roulez-les légèrement dans la farine pour les enrober.
+
+ma3kouda_5:
+  recette: ma3kouda
+  description: >
+    Chauffez un peu d'huile de tournesol dans une poêle à feu moyen. Faites cuire les galettes de chaque côté jusqu'à ce qu'elles soient dorées et croustillantes.
+
+ma3kouda_6:
+  recette: ma3kouda
+  description: >
+    Servez les galettes chaudes, accompagnées de salade ou de légumes de votre choix pour un repas équilibré.

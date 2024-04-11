@@ -1,6 +1,10 @@
 omelette_image_blob: <%= ActiveStorage::FixtureSet.blob(    filename: "omelette.jpg.webp",    content_type: "image/webp",    service_name: "local"  ) %>
 riz_saute_image_blob: <%= ActiveStorage::FixtureSet.blob(    filename: "riz_saute_legume.jpg",    content_type: "image/webp",    service_name: "local"  ) %>
-shakshuka_image_blob: <%= ActiveStorage::FixtureSet.blob(    filename: "shakshuka.jpg",    content_type: "image/webp",    service_name: "local"  ) %>
+shakshuka_image_blob: <%= ActiveStorage::FixtureSet.blob(    filename: "shakshuka.gif",    content_type: "image/webp",    service_name: "local"  ) %>
 gyros_image_blob: <%= ActiveStorage::FixtureSet.blob(    filename: "gyros.jpg",    content_type: "image/webp",    service_name: "local"  ) %>
 spaghetti_bolognese_image_blob: <%= ActiveStorage::FixtureSet.blob(    filename: "spaghetti_bolognese.jpg",    content_type: "image/webp",    service_name: "local"  ) %>
 salade_cesar_image_blob: <%= ActiveStorage::FixtureSet.blob(    filename: "salade_cesar.jpg",    content_type: "image/webp",    service_name: "local"  ) %>
+pommes_terre_roties_image_blob: <%= ActiveStorage::FixtureSet.blob(    filename: "pommes_terre_roties.webp",    content_type: "image/webp",    service_name: "local"  ) %>
+poulet_olives_couscous_complet_image_blob: <%= ActiveStorage::FixtureSet.blob(    filename: "poulet_olives_couscous_complet.gif",    content_type: "image/webp",    service_name: "local"  ) %>
+briques_viande_hachee_image_blob: <%= ActiveStorage::FixtureSet.blob(    filename: "briques_viande_hachee.png",    content_type: "image/webp",    service_name: "local"  ) %>
+ma3kouda_image_blob: <%= ActiveStorage::FixtureSet.blob(    filename: "ma3kouda.png",    content_type: "image/webp",    service_name: "local"  ) %>

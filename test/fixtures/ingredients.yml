@@ -2,26 +2,26 @@
 
 omelette_oeufs:
   nom: oeufs
-  quantite: 6
+  quantite: 3
   unite: u
   recette: omelette
 
 omelette_feta:
   nom: féta
-  quantite: 50
+  quantite: 30
   unite: g
   recette: omelette
 
 
 omelette_champignons:
   nom: champignons de Paris
-  quantite: 50
+  quantite: 30
   unite: g
   recette: omelette
 
 omelette_beurre:
   nom: beurre
-  quantite: 20
+  quantite: 15
   unite: g
   recette: omelette
 
@@ -450,4 +450,160 @@ shakshuka_pain:
   quantite: 100
   unite: g
   recette: shakshuka
+
+poulet_olives_cuisse_poulet:
+  nom: Cuisse de poulet (sans peau)
+  quantite: 2
+  unite: u
+  recette: poulet_olives
+
+poulet_olives_oignon:
+  nom: Oignon
+  quantite: 100
+  unite: g
+  recette: poulet_olives
+
+poulet_olives_huile_olive:
+  nom: Huile d'olive extra vierge
+  quantite: 2
+  unite: càs
+  recette: poulet_olives
+
+poulet_olives_sel:
+  nom: Sel
+  quantite: 1
+  unite: càc
+  recette: poulet_olives
+
+poulet_olives_poivre:
+  nom: Poivre noir
+  quantite: 1
+  unite: càc
+  recette: poulet_olives
+
+poulet_olives_curcuma:
+  nom: Curcuma
+  quantite: 1
+  unite: càc
+  recette: poulet_olives
+
+poulet_olives_gingembre:
+  nom: Gingembre frais râpé
+  quantite: 1
+  unite: càc
+  recette: poulet_olives
+
+poulet_olives_coriandre:
+  nom: Coriandre fraîche
+  quantite: 1
+  unite: bouquet
+  recette: poulet_olives
+
+poulet_olives_olives_vertes:
+  nom: Olives vertes dénoyautées
+  quantite: 100
+  unite: g
+  recette: poulet_olives
+
+briques_viande_hachee_feuilles_briques:
+  nom: Feuilles de briques
+  quantite: selon besoin
+  unite: u
+  recette: briques_viande_hachee
+
+briques_viande_hachee_viande_hachee:
+  nom: Viande hachée
+  quantite: 300
+  unite: g
+  recette: briques_viande_hachee
+
+briques_viande_hachee_oignon:
+  nom: Oignon
+  quantite: 1
+  unite: u
+  recette: briques_viande_hachee
+
+briques_viande_hachee_coriandre:
+  nom: Coriandre fraîche
+  quantite: au goût
+  unite:
+  recette: briques_viande_hachee
+
+briques_viande_hachee_sel:
+  nom: Sel
+  quantite: au goût
+  unite:
+  recette: briques_viande_hachee
+
+briques_viande_hachee_poivre:
+  nom: Poivre
+  quantite: au goût
+  unite:
+  recette: briques_viande_hachee
+
+briques_viande_hachee_ail_poudre:
+  nom: Ail en poudre
+  quantite: 1
+  unite: càc
+  recette: briques_viande_hachee
+
+briques_viande_hachee_fromage:
+  nom: Fromage (type Kiri)
+  quantite: selon envie
+  unite: u
+  recette: briques_viande_hachee
+
+ma3kouda_pommes_de_terre:
+  nom: Pommes de terre
+  quantite: 2
+  unite: u
+  recette: ma3kouda
+
+ma3kouda_oeuf:
+  nom: Œuf
+  quantite: 1
+  unite: u
+  recette: ma3kouda
+
+ma3kouda_coriandre:
+  nom: Coriandre
+  quantite: au goût
+  unite:
+  recette: ma3kouda
+
+ma3kouda_farine:
+  nom: Farine
+  quantite: selon besoin pour enrobage
+  unite:
+  recette: ma3kouda
+
+ma3kouda_fromage:
+  nom: Fromage (type Kiri) (selon envie)
+  quantite: 1
+  unite: u
+  recette: ma3kouda
+
+ma3kouda_sel:
+  nom: Sel
+  quantite: 1
+  unite: g
+  recette: ma3kouda
+
+ma3kouda_poivre:
+  nom: Poivre
+  quantite: 1
+  unite: g
+  recette: ma3kouda
+
+ma3kouda_curcuma:
+  nom: Curcuma
+  quantite: 1
+  unite: càc
+  recette: ma3kouda
+
+ma3kouda_huile_tournesol:
+  nom: Huile de tournesol
+  quantite: 1
+  unite: càs
+  recette: ma3kouda
 
