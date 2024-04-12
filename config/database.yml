@@ -80,5 +80,5 @@ test:
 production:
   <<: *default
   database: student_cooking_production
-  username: student_cooking
+  username: ubuntu
   password: <%= ENV["STUDENT_COOKING_DATABASE_PASSWORD"] %>
